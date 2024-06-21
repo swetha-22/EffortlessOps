@@ -1,0 +1,92 @@
+
+
+.adminSidebar{
+    width: 70px;
+    height: 100%;
+    background-color: rgb(69, 80, 164);
+    /* background: linear-gradient(180deg, rgb(140, 255, 237), rgb(69, 80, 164)); */
+    position: fixed;
+    top: 75px;
+    left: 0px;
+    border-radius:0px 20px 0px 20px;
+    z-index: 1;
+    transition: all 0.4s ease;
+    
+}
+
+.adminSidebar:hover{
+    width: 220px;
+    background-color: black;
+    background-color: rgb(69, 80, 164);
+    /* background: linear-gradient(180deg , rgb(140, 255, 237), rgb(69, 80, 164)); */
+    
+    transition: all 0.4s ease;
+    z-index: 2;
+    .side-elements{
+        display: block;
+    }
+    .side-heading{
+        display: block;
+        color: black;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+.sidebar{
+    width: 68px;
+    height: 100%;
+    background-color: rgb(45 78 124);
+    /* background: linear-gradient(162deg, rgba(170,210,241,1) 9%, rgba(43,81,194,1) 45%); */
+    color: white;
+    position: fixed;
+    top: 75px;
+    left: 0px;
+    border-radius:0px 20px 0px 20px;
+    z-index: 5;
+    transition: all 0.4s ease;
+}
+
+.sidebar:hover{
+    width: 200px;
+    background-color: rgb(45 78 124);
+    /* background: linear-gradient(162deg, rgba(170,210,241,1) 9%, rgba(43,81,194,1) 45%); */
+    transition: all 0.4s ease;
+    .side-elements{
+        display: block;
+    }
+    .side-heading{
+        display: block;
+        color: black;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+.side-elements{
+    display: none;
+    position: relative;
+    top: -16px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 230px;
+}
+
+.side-heading{
+    display: none;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 9px;
+    left: 15px;
+}
+
+.link:hover{
+    color: black;
+}

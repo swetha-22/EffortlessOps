@@ -1,0 +1,26 @@
+.myButton:hover {
+  background-color: azure !important;
+  color:rgb(3, 3, 73) !important;
+  font-weight: bolder;
+}
+
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px rgb(3, 3, 73) inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+.third-addon{
+  width:100px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  left: -50px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  background-color: #2d2c3e;
+}
